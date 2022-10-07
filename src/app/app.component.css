@@ -1,0 +1,35 @@
+*{
+    color: #585858;
+}
+
+.header{
+    background-color: #dfdfdf
+}
+
+.texto-header{
+    font-weight: bold;
+}
+
+.left-side{
+    border-left: 2px solid #585858;
+    border-bottom: 2px solid #585858;
+    border-radius: 5px;
+}
+
+.rigth-side{
+    border-right: 2px solid #585858;
+    border-bottom: 2px solid #585858;
+    border-radius: 5px;
+}
+
+.container-custom{
+    margin: 0px 50px;
+}
+
+.education-info p{
+    margin: 0;
+}
+
+.experience-info p{
+    margin: 0;
+}
