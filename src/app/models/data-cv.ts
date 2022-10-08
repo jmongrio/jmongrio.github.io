@@ -1,4 +1,15 @@
-{
+export interface DataCV {
+    name: string;
+    job: string;
+    phone: string;
+    email: string;
+    address: string;
+    linkedi: string;
+    github: string;
+    description: string
+}
+
+export const personalData = {
     "name": "JASÓN MONGRILLO",
     "job": "Developer",
     "phone": "+(506)6213-0935",
