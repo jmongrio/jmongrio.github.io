@@ -1,7 +1,6 @@
 import { Component } from '@angular/core';
 import { Observable } from 'rxjs';
 import { GetDataService } from './services/get-data.service';
-import { DataCV, personalData } from './models/data-cv';
 
 @Component({
   selector: 'app-root',
@@ -11,25 +10,36 @@ import { DataCV, personalData } from './models/data-cv';
 export class AppComponent {
   title = 'WebSiteCV';
 
+  personalData: any;
+
   constructor(
     private data: GetDataService
   ) {
-    this.personalData;
+    
   }
 
-  personalData!: Observable<{
-    name: string,
-    job: string,
-    phone: string,
-    email: string,
-    address: string,
-    linkedi: string,
-    github: string,
-    description: string
-  }>;
+  // personalData!: Observable<{
+  //   name: string,
+  //   job: string,
+  //   phone: string,
+  //   email: string,
+  //   address: string,
+  //   linkedi: string,
+  //   github: string,
+  //   description: string
+  // }>;
 
   ngOnInit(): void{
-    this.personalData = this.data.getPersonalData();
+    this.GetPersonalData();
+  }
+
+  GetPersonalData() {
+    this.data.getPersonalData().subscribe(data => {
+      this.personalData = data;
+      console.log(this.personalData);
+    }, error => {
+      console.error(error)
+    })
   }
 
 }
