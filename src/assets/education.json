@@ -1,0 +1,13 @@
+[
+    {
+        "name": "UNIVERSIDAD ESTATAL A DISTANCIA",
+        "grade": "Diplomado en informática",
+        "finish": "2021"
+    },
+    
+    {
+        "name": "COLEGIO TÉCNICO PROFESIONAL LOS CHILES",
+        "grade": "Técnico Medio en Contabilidad",
+        "finish": "2016"
+    }
+]

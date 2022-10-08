@@ -1,0 +1,24 @@
+[
+    {
+        "company": "E.I ARENAL S.A",
+        "position": "GPM Manager",
+        "year": "2019 - Currently",
+        "responsabilities": [
+            {"resp": "Hazard Analysis and Critical Control Point."},
+            {"resp": "Register food process."},
+            {"resp": "Personal management."},
+            {"resp": "Participate meetings with general manager to improve process."}
+        ]
+    },
+
+    {
+        "company": "SUPERMERCADOS CARRANZA",
+        "position": "Cashier Manager",
+        "year": "2017 - 2019",
+        "responsabilities": [
+            {"resp": "Provided customer service."},
+            {"resp": "Solving customer problems."},
+            {"resp": "Mangement cashier personal."}
+        ]
+    }
+]
