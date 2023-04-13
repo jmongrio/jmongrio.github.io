@@ -1,9 +1,11 @@
 [
     {"skill": "C# .NET"},
+    {"skill": "Angular"},
+    {"skill": "HTML, CSS Y JS"},
+    {"skill": "Entity Framework"},
     {"skill": "OOP"},
     {"skill": "API REST"},
     {"skill": "SQL Server"},
+    {"skill": "SQLite"},
     {"skill": "Git"},
-    {"skill": "Angular"},
-    {"skill": "Typescript"}
 ]
